@@ -1,0 +1,129 @@
+body{
+    margin: 1rem;
+    background: hsl(0, 0%, 100%);
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    font-family: url(https://fonts.google.com/specimen/Young+Serif);
+    max-width: 19rem;
+}
+main{
+    font-family: url(https://fonts.google.com/specimen/Outfit);
+    font-weight: 400, 600, 700;
+    color: hsl(24, 5%, 18%);
+    max-width: 22rem;
+
+}
+.mobile-img{
+    max-width: 21rem;
+    
+}
+:root{
+/*--color-Nutmeg: hsl(14, 45%, 36%)
+    --color-DarkRaspberry: hsl(332, 51%, 32%)    
+    --color-White: hsl(0, 0%, 100%)
+    --color-Rose-White: hsl(330, 100%, 98%)
+    --color-Eggshell: hsl(30, 54%, 90%)
+    --color-Light-Grey: hsl(30, 18%, 87%)
+    --color-Wenge-Brown: hsl(30, 10%, 34%)
+    --color-Dark-Charcoal: hsl(24, 5%, 18%)
+    --Font-size: 16px*/
+    --background:  hsl(332, 51%, 32%);
+    --background-second:  hsl(330, 100%, 98%);
+    --background-third:   hsl(14, 45%, 36%);
+    --color-all: hsl(24, 5%, 18%);
+}
+.first-div{
+   text-align: justify;
+}
+.first-div .fi-p{
+    font-size: 2rem;
+    font-weight: 770;
+}
+/*second div*/
+.second-div{
+    background: var(--background-second);
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+.second-div .sec-p{
+    color: var(--background);
+    font-size: 1.4rem;
+    position: relative;
+    left: 1.4rem;
+}
+.second-div li{
+    margin-left: 1rem;
+}
+/* Third div*/
+.third-div .th-p{
+    color: var(--background-third);
+    font-size: 3rem;
+    position: relative;
+    left: 1.4rem;
+}
+/* forth div*/
+.forth-div .for-p{
+    color: var(--background-third);
+    font-size: 3rem;
+    position: relative;
+    left: 1.4rem;
+}
+.forth-div li{
+    list-style-type: decimal;
+    color: var(--background-third)
+}
+.inner{
+    color: black;
+}
+/* fifth-div */
+th{
+    position: relative;
+    left: 0.4rem;
+    
+}
+td{
+    position: relative;
+    left: 2rem; 
+    
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd; /* Add horizontal border after each row */
+    padding: 8px;
+   
+}
+.fifth-div .fif-p{
+    color: var(--background-third);
+    font-size: 2rem;
+}
+.fifth-div .fif-pp{
+    text-align: justify;
+}
+/* DESKTOP VERSION */
+@media (max-width: 1440px) and (orientation: landscape) {
+    body{
+        background:  hsl(30, 54%, 90%);
+        text-align: justify;
+        position: relative;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main{
+        background: white;
+        padding: 1rem;
+        border-radius: 1rem;
+        margin: 0 auto;
+        width: 25rem;
+
+    }
+    .mobile-img{
+        max-width: 22rem;
+    }
+}
