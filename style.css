@@ -105,7 +105,7 @@ th, td {
     text-align: justify;
 }
 /* DESKTOP VERSION */
-@media (max-width: 1440px) and (orientation: landscape) and (orientation: portrait) {
+@media (max-width: 1440px) and (orientation: landscape) {
     body{
         background:  hsl(30, 54%, 90%);
         text-align: justify;
@@ -121,7 +121,7 @@ th, td {
         border-radius: 1rem;
         margin: 0 auto;
         width: 25rem;
-        box-shadow: 1px 2px black;
+        box-shadow: 1px 2px 1px #333;
 
     }
     .mobile-img{
