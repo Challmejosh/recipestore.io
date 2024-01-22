@@ -6,9 +6,7 @@ body{
     font-size: 1.1rem;
     font-family: url(https://fonts.google.com/specimen/Young+Serif);
     max-width: 19rem;
-    display: flex;
-    align-item: center;
-    justify-content: center;
+    
     
 }
 main{
@@ -115,7 +113,7 @@ th, td {
         background:  hsl(30, 54%, 90%);
         text-align: justify;
         position: relative;
-        margin: auto;
+        margin:0 auto;
         display: flex;
         align-items: center;
         justify-content: center;
