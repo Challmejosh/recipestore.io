@@ -6,12 +6,17 @@ body{
     font-size: 1.1rem;
     font-family: url(https://fonts.google.com/specimen/Young+Serif);
     max-width: 19rem;
+    display: flex;
+    align-item: center;
+    justify-content: center;
+    
 }
 main{
     font-family: url(https://fonts.google.com/specimen/Outfit);
     font-weight: 400, 600, 700;
     color: hsl(24, 5%, 18%);
     max-width: 22rem;
+    
 
 }
 .mobile-img{
